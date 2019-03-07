@@ -6,6 +6,14 @@ Unit::Unit()
 {
 }
 
+void Unit::attack()
+{
+}
+
+void Unit::defend()
+{
+}
+
 
 Unit::~Unit()
 {
