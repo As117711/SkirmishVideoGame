@@ -1,12 +1,12 @@
 #include "stdafx.h"
-#include "Infantry.h"
+#include "InfantryUnit.h"
 
 
-Infantry::Infantry()
+InfantryUnit::InfantryUnit()
 {
 }
 
 
-Infantry::~Infantry()
+InfantryUnit::~InfantryUnit()
 {
 }

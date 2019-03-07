@@ -19,6 +19,12 @@
     <Filter Include="Source Files\Units">
       <UniqueIdentifier>{1557235b-5807-4d97-9027-93c2fb270664}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Units\Infantry">
+      <UniqueIdentifier>{668b6716-60d4-43da-b236-115a2448fb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units\Mounted">
+      <UniqueIdentifier>{163abfe1-87de-4e1c-8964-64c0b690b15b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -36,10 +42,16 @@
     <ClInclude Include="Unit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Infantry.h">
+    <ClInclude Include="MountedUnit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MountedUnit.h">
+    <ClInclude Include="Swordsman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cavalry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfantryUnit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -58,6 +70,12 @@
     </ClCompile>
     <ClCompile Include="InfantryUnit.cpp">
       <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordsman.cpp">
+      <Filter>Source Files\Units\Infantry</Filter>
+    </ClCompile>
+    <ClCompile Include="Cavalry.cpp">
+      <Filter>Source Files\Units\Mounted</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

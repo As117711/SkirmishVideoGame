@@ -147,15 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Infantry.h" />
+    <ClInclude Include="Cavalry.h" />
+    <ClInclude Include="InfantryUnit.h" />
     <ClInclude Include="MountedUnit.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SkirmishApp.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Swordsman.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Unit.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cavalry.cpp" />
     <ClCompile Include="InfantryUnit.cpp" />
     <ClCompile Include="MountedUnit.cpp" />
     <ClCompile Include="SkirmishApp.cpp" />
@@ -165,6 +168,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Swordsman.cpp" />
     <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
