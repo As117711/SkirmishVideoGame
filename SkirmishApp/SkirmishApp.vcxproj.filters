@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Buildings">
+      <UniqueIdentifier>{b7e5c005-6475-4eff-bb9d-f8b5262eaa11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Units">
+      <UniqueIdentifier>{1557235b-5807-4d97-9027-93c2fb270664}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -27,6 +33,15 @@
     <ClInclude Include="SkirmishApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Infantry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MountedUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -34,6 +49,15 @@
     </ClCompile>
     <ClCompile Include="SkirmishApp.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="MountedUnit.cpp">
+      <Filter>Source Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="InfantryUnit.cpp">
+      <Filter>Source Files\Units</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
