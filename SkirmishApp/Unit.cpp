@@ -14,6 +14,10 @@ void Unit::defend()
 {
 }
 
+void Unit::standInFormation()
+{
+}
+
 
 Unit::~Unit()
 {

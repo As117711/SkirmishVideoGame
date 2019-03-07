@@ -10,6 +10,7 @@ public:
 	Unit();
 	virtual void attack();
 	virtual void defend();
+	virtual void standInFormation();
 	virtual ~Unit();
 };
 
